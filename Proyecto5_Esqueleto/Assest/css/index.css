@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #040b13;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.esqueletoOff{
+    width: 550px;
+    height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/esqueleto_quieto.png");
+}
+
+.esqueletoOff.on{
+    background-image: url(../img/esqueleto1___7965380fb0bcb06___.gif);
+}
+
+.esqueletoOnOff{
+    width: 120px;
+    height: 50px;
+    margin-top: 28.6%;
+    background-color: rgb(42, 82, 82);
+    border-radius: 1vh;
+    border: .2rem solid rgb(177, 85, 85);
+    position: fixed;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.esqueletoOnOff:hover{
+    background-color: #040b13;
+    cursor: pointer;
+}
